@@ -433,11 +433,6 @@ public class ModuleWeaver
         return ci;
     }
 
-    private void EnsureContinuationClassGenerated(ModuleDefinition module)
-    {
-        throw new NotImplementedException();
-    }
-
     private TypeReference GetTaskReturnType(TypeReference taskType)
     {
         TypeReference type = taskType;
